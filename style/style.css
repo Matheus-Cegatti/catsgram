@@ -1,0 +1,28 @@
+body {
+    background: rgb(198,137,198);
+background: linear-gradient(90deg, rgba(198,137,198,1) 55%, rgba(177,178,255,1) 86%, rgba(171,217,255,1) 100%);
+}
+
+.teste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.2px solid #9C9EFE;
+}
+
+.img-cabecalho{
+    width: 15%;
+}
+
+.div-img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.img-perfil {
+
+    width: 100%;
+}
