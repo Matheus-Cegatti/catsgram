@@ -14,12 +14,31 @@ background: linear-gradient(90deg, rgba(198,137,198,1) 55%, rgba(177,178,255,1) 
     width: 15%;
 }
 
+.container-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cartao-principal {
+    width: 90%;
+    background: linear-gradient(140deg, rgba(198,137,198,1) 24%, rgba(166,209,230,1) 51%, rgba(214,239,237,1) 62%);
+    border-radius: 5px;
+}
+
+.img-border {
+    border-bottom: 1.5px solid #9C9EFE;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
 .div-img {
     border-radius: 50%;
     overflow: hidden;
     width: 100px;
     height: 100px;
     background-color: black;
+
 }
 
 .img-perfil {
