@@ -15,11 +15,19 @@ body {
     width: 15%;
 }
 
+.texto-principais {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
 .container-article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "cartao cartao2 cartao3 cartao4 noticias"
                          "cartao5 cartao6 cartao7 cartao8 noticias";
+    row-gap: 1rem; 
+    border-bottom: 1.2px solid #9C9EFE;
+    padding-bottom: 1rem;                    
 }
 
 .cartao-principal,
@@ -41,6 +49,54 @@ body {
 
 .cartao-principal-2{
     grid-area: cartao2;
+}
+
+.cartao-principal .div-img {
+    background-image: url(../img/gato1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-2 .div-img {
+    background-image: url(../img/gato2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-3 .div-img {
+    background-image: url(../img/gato3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-4 .div-img {
+    background-image: url(../img/gato4.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-5 .div-img {
+    background-image: url(../img/gato5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-6 .div-img {
+    background-image: url(../img/gato6.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-7 .div-img {
+    background-image: url(../img/gato7.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-8 .div-img {
+    background-image: url(../img/gato8.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .cartao-principal-3{
@@ -109,4 +165,12 @@ body {
     margin: -6px;
     border-radius: 10px;
     content: "";
+}
+
+.cartao-noticias {
+    border-bottom: 3px solid #B7657B;
+}
+
+.titulo-noticias {
+    text-align: center;
 }
