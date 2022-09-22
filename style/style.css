@@ -174,3 +174,23 @@ body {
 .titulo-noticias {
     text-align: center;
 }
+
+.img-noticia{
+    width: 20%;
+}
+
+.textos-noticia {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.links-noticia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.links-noticia:first-child{
+    margin-top: 1rem;
+}
