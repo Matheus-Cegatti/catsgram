@@ -2,6 +2,7 @@ body {
     background: rgb(198, 137, 198);
     background: linear-gradient(90deg, rgba(198, 137, 198, 1) 55%, rgba(177, 178, 255, 1) 86%, rgba(171, 217, 255, 1) 100%);
     font-family: 'Source Serif Pro', serif;
+
 }
 
 .teste {
@@ -209,31 +210,48 @@ body {
 }
 
 .teste-animacao{
-    width: 3rem;
-    height: 3rem;
-    background-color: #5c0546;
+    /* height: 5rem; */
     margin-top: 1rem;
-    animation: animar-div 2s linear infinite;
-    opacity: 0;
-}
-
-.teste-animacao2{
-    width: 3rem;
-    height: 3rem;
-    background-color: #3148af;
-    margin-top: 1rem;
-    animation: animar-div 2s linear infinite;
-    animation-delay: 5s;
-    opacity: 0;
+    animation: animar-div 10s linear infinite;
+    opacity: 1;
+    width: 7rem;
 }
 
 .testes {
-    display: flex;
-    justify-content: center;
+    animation: color-change-3x 4s linear infinite alternate both;
+    border-radius: 7px;
 }
 
+.teste-animacao2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-social {
+    max-width: 20px;
+}
+
+a:not(:first-child){
+    margin-left: 1rem;
+}
 @keyframes animar-div {
+    from{
+        transform: translateX(calc(90vw));
+    }
     to {
-        opacity: 1;
+        transform: translateX(calc(0vw - 2.3rem));
     }
 }
+
+/* @keyframes color-change-3x {
+    0% {
+      background: rgba(198, 137, 198, 1);
+    }
+    50% {
+      background: rgba(177, 178, 255, 1);
+    }
+    100% {
+      background: rgba(171, 217, 255, 1);
+    }
+  } */
