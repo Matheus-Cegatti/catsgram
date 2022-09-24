@@ -2,6 +2,7 @@ body {
     background: rgb(198, 137, 198);
     background: linear-gradient(90deg, rgba(198, 137, 198, 1) 55%, rgba(177, 178, 255, 1) 86%, rgba(171, 217, 255, 1) 100%);
     font-family: 'Source Serif Pro', serif;
+    
 
 }
 
@@ -10,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     border-bottom: 1.2px solid #9C9EFE;
+    animation: tracking-in-expand-fwd 1.4s linear both;
 }
 
 .img-cabecalho {
@@ -235,6 +237,13 @@ body {
 a:not(:first-child){
     margin-left: 1rem;
 }
+
+.text-social {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 @keyframes animar-div {
     from{
         transform: translateX(calc(90vw));
@@ -255,3 +264,17 @@ a:not(:first-child){
       background: rgba(171, 217, 255, 1);
     }
   } */
+  @keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
