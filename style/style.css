@@ -191,7 +191,6 @@ body {
     display: flex;
     flex-direction: column;
    margin: 0 0.3rem;
-   animation: slide-out-top 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
 }
 
 .links-noticia {
@@ -210,6 +209,25 @@ body {
     color: #233567;
     font-size: 1.2rem;
 }
+
+.div-noticias {
+    width: 15rem;
+    height: 4rem;
+    background-color: blue;
+    margin-left: 40%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.txt-noticias{
+    text-align: center;
+    animation-name: titleflip;
+	  animation: titleflip 5s ease-in-out infinite;
+}
+
+/* .txt-noticias:hover{
+    animation: none;
+} */
 
 .teste-animacao{
     /* height: 5rem; */
@@ -278,3 +296,29 @@ a:not(:first-child){
     opacity: 1;
   }
 }
+
+@-webkit-keyframes titleflip {
+    0%, 20% {
+    transform: translate(0px, -12.50em);
+    }
+    20%,
+    40% {
+   transform: translate(0px, -9.375em);
+    }
+    40%,
+    60% {
+      -webkit-transform: translate(0px, -6.44em);
+    }
+    60%,
+    80% {
+    transform: translate(0px, -3.44em);
+    }
+    80%,
+    100% {
+    transform: translate(0px, -0.315em);
+    }
+    100%,
+    0% {
+      transform: translate(0px, -12.50em);
+    }
+  }
