@@ -44,6 +44,7 @@ body {
     width: 90%;
     background: linear-gradient(140deg, rgba(198, 137, 198, 1) 24%, rgba(166, 209, 230, 1) 51%, rgba(214, 239, 237, 1) 62%);
     border-radius: 5px;
+    border: 1.2px solid #9C9EFE;
 }
 
 .cartao-principal{
@@ -216,15 +217,12 @@ body {
     margin-left: 40%;
     border-radius: 16px;
     overflow: hidden;
+    margin-top: 1rem;
 }
 
 .txt-noticias{
 	  animation: titleflip 7s linear infinite;
 }
-
-/* .txt-noticias:hover{
-    animation: none;
-} */
 
 .teste-animacao{
     /* height: 5rem; */
