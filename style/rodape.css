@@ -1,0 +1,18 @@
+.rodape-animacao{
+    /* height: 5rem; */
+    margin-top: 1rem;
+    animation: animar-div 10s linear infinite;
+    opacity: 1;
+    width: 7rem;
+}
+
+.rodape {
+    animation: color-change-3x 4s linear infinite alternate both;
+    border-radius: 7px;
+}
+
+.rodape-animacao2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

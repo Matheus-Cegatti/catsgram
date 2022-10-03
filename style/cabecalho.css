@@ -1,0 +1,11 @@
+.cabeçalho {
+    align-items: center;
+    animation: tracking-in-expand-fwd 1.4s linear both;
+    border-bottom: 1.2px solid #9C9EFE;
+    display: flex;
+    justify-content: center;
+}
+
+.img-cabecalho {
+    width: 15%;
+}

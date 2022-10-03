@@ -1,0 +1,134 @@
+.texto-principais {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.container-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "cartao cartao2 cartao3 cartao4 noticias"
+                         "cartao5 cartao6 cartao7 cartao8 noticias";
+    row-gap: 1rem; 
+    border-bottom: 1.2px solid #9C9EFE;
+    padding-bottom: 1rem;                    
+}
+
+.cartao-principal,
+.cartao-principal-2,
+.cartao-principal-3,
+.cartao-principal-4,
+.cartao-principal-5,
+.cartao-principal-6,
+.cartao-principal-7,
+.cartao-principal-8{
+    width: 90%;
+    background: linear-gradient(140deg, rgba(198, 137, 198, 1) 24%, rgba(166, 209, 230, 1) 51%, rgba(214, 239, 237, 1) 62%);
+    border-radius: 5px;
+    border: 1.2px solid #9C9EFE;
+}
+
+.cartao-principal{
+    grid-area: cartao;
+}
+
+.cartao-principal-2{
+    grid-area: cartao2;
+}
+
+.cartao-principal .div-img {
+    background-image: url(../img/gato1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-2 .div-img {
+    background-image: url(../img/gato2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-3 .div-img {
+    background-image: url(../img/gato3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-4 .div-img {
+    background-image: url(../img/gato4.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-5 .div-img {
+    background-image: url(../img/gato5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-6 .div-img {
+    background-image: url(../img/gato6.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-7 .div-img {
+    background-image: url(../img/gato7.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-8 .div-img {
+    background-image: url(../img/gato8.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-principal-3{
+    grid-area: cartao3;
+}
+
+.cartao-principal-4{
+    grid-area: cartao4;
+}
+
+.cartao-principal-5{
+    grid-area: cartao5;
+}
+
+.cartao-principal-6{
+    grid-area: cartao6;
+}
+
+.cartao-principal-7{
+    grid-area: cartao7;
+}
+
+.cartao-principal-8{
+    grid-area: cartao8;
+}
+
+.img-border {
+    border-bottom: 1.5px solid #9C9EFE;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.div-img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+
+.img-perfil {
+
+    width: 100%;
+}
+
+.texto-article {
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
